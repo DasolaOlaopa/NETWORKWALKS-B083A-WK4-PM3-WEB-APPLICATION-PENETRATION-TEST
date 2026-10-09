@@ -73,7 +73,7 @@ The portal displayed;
     Lab Ref: LR-2024-1205 | 2024-11-06 | PDF (encrypted)
 Each report had a Download option.
 
-## Milestone 2; Data Extraction
+## 5. Milestone 2; Data Extraction
 **Objective** Crack the encryption/password protection on all three retrieved PDF files.
 
 ### Password Cracking Approach
@@ -94,6 +94,17 @@ The cracked passwords were:
 ![pdf2 password](pdf2-password.png)
 
 ![pdf3 password](pdf3-password.png)
+
+Passwords for all three encrypted patient PDFs were cracked, allowing access to the protected files.
+
+## 6. Milestone 3; Attack
+
+Objective Find the staff salaries and shareholder details of the hospital.
+
+![staff salaries](staff-salaries.png)
+
+![shareholders](shareholders.png)
+
 
 
 **Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
