@@ -59,6 +59,39 @@ The portal contained three encrypted patient laboratory reports.
 
 ![patient reports](patient-reports.png)
 
+### Retrieved Patient Reports
+After access got granted, I had access to My lab reports page.
+The portal displayed; 
+
+ 1. Pathology Report — S. Dlamini
+    Lab Ref: LR-2024-1187 | 2024-11-04 | PDF (encrypted)
+
+ 2. Pathology Report — P. Reddy
+    Lab Ref: LR-2024-1192 | 2024-11-05 | PDF (encrypted)
+
+ 3. Pathology Report — E. Thompson
+    Lab Ref: LR-2024-1205 | 2024-11-06 | PDF (encrypted)
+Each report had a Download option.
+
+## Milestone 2; Data Extraction
+**Objective** Crack the encryption/password protection on all three retrieved PDF files.
+
+### Password Cracking Approach
+After downloading the three encrypted patient reports, I used the NetworkWalks Hash Calculator to extract crackable hashes from the three encrypted PDFs.
+
+Then after extracting the hashes, I used the NetworkWalks Password Cracker to recover the PDF passwords.
+
+I tested the hashes against multiple wordlists.
+The cracked passwords were:
+| Patient PDF | Recovered Password |
+| Patient-report-1.pdf | ****** |
+| Patient-report-2.pdf | ******** |
+| Patient-report-3.pdf | ******* |
+
+![pdf1 password](pdf1-password.png)
+
+
+
 **Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
 
 **Methodology:**
