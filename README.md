@@ -28,6 +28,18 @@ The project was grouped into four milestones
 * M3: **Attack (cracking):** Get staff salaries and shareholder details.
 * M4: **Pentest Report:** Write a professional penetration testing report for the client
 
+## 4. Milestone 1; Initial Access
+The website was attacked and three confidential PDF laboratory reports were retrieved from the authorized lab environment.
+
+### Reconnaissance (Footprinting)
+The following footprintng tools were used to gather information about the target;
+| Tool | Purpose | 
+|------|---------|
+| WHOIS | Gathered domaim registration details (owner, dates, name servers, registrar url) |
+| WhatWeb | Identified technologies and web technologies used by the target |
+| Wafw00f | Detects if a Web Application Firewall protects the site |
+| nslookup | Performed DNS queries to identify relevant DNS information | 
+
 **Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
 
 **Methodology:**
