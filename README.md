@@ -83,6 +83,7 @@ Then after extracting the hashes, I used the NetworkWalks Password Cracker to re
 
 I tested the hashes against multiple wordlists.
 The cracked passwords were:
+
 | Patient PDF | Recovered Password |
 | Patient-report-1.pdf | ****** |
 | Patient-report-2.pdf | ******** |
@@ -90,6 +91,9 @@ The cracked passwords were:
 
 ![pdf1 password](pdf1-password.png)
 
+![pdf2 password](pdf2-password.png)
+
+![pdf3 password](pdf3-password.png)
 
 
 **Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
