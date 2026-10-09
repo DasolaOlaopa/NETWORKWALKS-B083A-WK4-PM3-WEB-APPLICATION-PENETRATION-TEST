@@ -45,6 +45,18 @@ The following footprintng tools were used to gather information about the target
 ![what web](whatweb.png)
 
 ![waf w00f](wafw00f.png)
+
+### Patient Portal and Authentication Testing
+The Patient Portal identified was tested during footprinting ;
+https://medirozahospital.com/patient/login.php
+
+An authentication attempt was also made and access was granted.
+https://medirozahospital.com/patient/portal.php
+
+The portal contained three encrypted patient laboratory reports.
+
+
+
 **Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
 
 **Methodology:**
