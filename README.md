@@ -57,6 +57,8 @@ The portal contained three encrypted patient laboratory reports.
 
 ![patient login1](patient-login1..png)
 
+![patient reports](patient-reports.png)
+
 **Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
 
 **Methodology:**
