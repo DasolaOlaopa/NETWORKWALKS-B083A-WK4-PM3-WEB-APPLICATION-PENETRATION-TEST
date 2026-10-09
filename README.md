@@ -14,13 +14,19 @@ A full penetration test against Mediroza General Hospital
 | Date | 09 October 2026 |
 |Authorization| Written permission granted by client for this engagement|
 
-> This assessment was conducted in a controlled, authorized educational environment as part of the NetworkWalks Cybersecurity Internship. These techniques were not and must never be applied to any system without explicit written permission from the owner.
-> 
-## 1. Executive Summary
+## 1. Liability Disclaimer
+This assessment was conducted in a controlled, authorized educational environment as part of the NetworkWalks Cybersecurity Internship. These techniques were not and must never be applied to any system without explicit written permission from the owner.
 
-This report documents a black-box penetration test performed against Mediroza General Hospital's web infrastructure. The engagement identified a critical authentication vulnerability in the login mechanism, which allowed unauthorized access to a restricted portal containing confidential patient lab reports. [Add 1–2 sentences summarizing overall risk level and business impact once all milestones are complete.]
+## 2. Introduction
 
-## 2. Scope and Methodology
+This report documents a black-box penetration test performed against Mediroza General Hospital's web infrastructure. The engagement identified a critical authentication vulnerability in the login mechanism, which allowed unauthorized access to a restricted portal containing confidential documents and sensitive hospital data.
+
+## 3. Objective
+The project was grouped into four milestones
+* M1: **Initial Access:** Attack the website to retrieve three confidential patient PDF lab reports.
+* M2: **Data Extraction:** Crack the encryption on all the retrieved files.
+* M3: **Attack (cracking):** Get staff salaries and shareholder details.
+* M4: **Pentest Report:** Write a professional penetration testing report for the client
 
 **Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
 
