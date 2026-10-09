@@ -5,8 +5,8 @@ A full penetration test against Mediroza General Hospital
 
 |**Batch:** B083 | Week 4 |
 |----------------|-------|
-**Target:** https://medirozahospital.com
-**Engagement Type:** Black-box Penetration Test
+|**Target:** | https://medirozahospital.com|
+|**Engagement Type:** |Black-box Penetration Test |
 **Duration:** 5 Days
 **Conducted by:** [Your Name]
 **Authorization:** Written permission granted by client for this engagement
