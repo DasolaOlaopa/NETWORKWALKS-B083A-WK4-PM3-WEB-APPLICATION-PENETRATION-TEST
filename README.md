@@ -4,12 +4,15 @@ A full penetration test against Mediroza General Hospital
 # Penetration Testing Report on Mediroza General Hospital
 
 |Client| Mediroza General Hospital |
-|---------|-------|
-|**Target:** | https://medirozahospital.com|
-|**Engagement Type:** |Black-box Penetration Test |
-|**Duration:** |5 Days |
-|**Conducted by:** | Olaopa Dasola Deborah |
-|**Authorization:**| Written permission granted by client for this engagement|
+|---------|-------------------------|
+| Target | https://medirozahospital.com/|
+| Target IP | 199.188.201.16 |
+| Assessment Type | Full black-box penetration test |
+| Batch | B083A NetworkWalks |
+|Duration |5 Days |
+|Conducted by| Olaopa Dasola Deborah |
+| Date | 09 October 2026 |
+|Authorization| Written permission granted by client for this engagement|
 
 > This assessment was conducted in a controlled, authorized educational environment as part of the NetworkWalks Cybersecurity Internship. These techniques were not and must never be applied to any system without explicit written permission from the owner.
 > 
