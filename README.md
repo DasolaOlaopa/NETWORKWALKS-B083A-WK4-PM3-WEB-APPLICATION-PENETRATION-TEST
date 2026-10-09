@@ -44,6 +44,7 @@ The following footprintng tools were used to gather information about the target
 
 ![what web](whatweb.png)
 
+![waf w00f](wafw00f.png)
 **Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
 
 **Methodology:**
