@@ -3,7 +3,7 @@ A full penetration test against Mediroza General Hospital
 
 # Penetration Testing Report on Mediroza General Hospital
 
-|**Batch**| B083A Week 4 |
+|Client| Mediroza General Hospital |
 |---------|-------|
 |**Target:** | https://medirozahospital.com|
 |**Engagement Type:** |Black-box Penetration Test |
