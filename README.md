@@ -3,12 +3,12 @@ A full penetration test against Mediroza General Hospital
 
 # Penetration Testing Report — Mediroza General Hospital
 
-|**Batch:**| B083A Week 4 |
-|----------|-------|
+|**Batch**| B083A Week 4 |
+|---------|-------|
 |**Target:** | https://medirozahospital.com|
 |**Engagement Type:** |Black-box Penetration Test |
-**Duration:** 5 Days
-**Conducted by:** [Your Name]
+|**Duration:** |5 Days |
+|**Conducted by:** | Olaopa Dasola Deborah |
 **Authorization:** Written permission granted by client for this engagement
 
 > This assessment was conducted in a controlled, authorized educational environment as part of the NetworkWalks Cybersecurity Internship. These techniques were not and must never be applied to any system without explicit written permission from the owner.
