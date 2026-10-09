@@ -1,7 +1,7 @@
 # NETWORKWALKS-B083A-WK4-WEB-APPLICATION-PENETRATION-TEST
 A full penetration test against Mediroza General Hospital
 
-# Penetration Testing Report — Mediroza General Hospital
+# Penetration Testing Report on Mediroza General Hospital
 
 |**Batch**| B083A Week 4 |
 |---------|-------|
@@ -9,12 +9,10 @@ A full penetration test against Mediroza General Hospital
 |**Engagement Type:** |Black-box Penetration Test |
 |**Duration:** |5 Days |
 |**Conducted by:** | Olaopa Dasola Deborah |
-**Authorization:** Written permission granted by client for this engagement
+|**Authorization:**| Written permission granted by client for this engagement|
 
 > This assessment was conducted in a controlled, authorized educational environment as part of the NetworkWalks Cybersecurity Internship. These techniques were not and must never be applied to any system without explicit written permission from the owner.
-
----
-
+> 
 ## 1. Executive Summary
 
 This report documents a black-box penetration test performed against Mediroza General Hospital's web infrastructure. The engagement identified a critical authentication vulnerability in the login mechanism, which allowed unauthorized access to a restricted portal containing confidential patient lab reports. [Add 1–2 sentences summarizing overall risk level and business impact once all milestones are complete.]
