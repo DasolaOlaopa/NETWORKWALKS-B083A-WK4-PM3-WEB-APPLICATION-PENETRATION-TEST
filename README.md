@@ -105,36 +105,40 @@ Objective Find the staff salaries and shareholder details of the hospital.
 
 ![shareholders](shareholders.png)
 
+This backup exposes every employee's personal data (names, national IDs, phones, salaries) and the hospital's shareholder register satisfying Milestone 3. No exploitation required.
+
+It is important to note that, one should never store a database backup inside the web root. This single misconfiguration led to a full confidentiality breach.
+
+## 7. Risk Summary
+| Findings | Rating |
+| Public database backup (staff PII, salaries, shareholders)  | Critical |
+| SQL injection - authentication bypass | Critical |
+| Weak encryption passwords on patient files | High |
+| Directory listing enabled | Medium |
+| Username enumeration on patient login | Medium |
+| No Waf | Low |
+
+## 8. What I Learned
+
+* Reconnaissance or footprinting tools can reveal important details about a target before any further testing begings.
+* Exposures and ccessible files or information, can create significant security risks.
+* A targeted wordlist can be much more effective than a generic one when testing password security.
+* Evidence and clear documentation are essential throughout a penetration testing.
+
+# Tools & Resources
+* Kali Linux
+* NetworkWalks Hash Calculator: https://networkwalks.com/hash-calculator/
+* NetworkWalks Password Cracker: https://networkwalks.com/password-cracker/
+
+👤 **Author**
+**Dasola Olaopa**
+Cybersecurity Professional B083A
+
+LinkedIn: https://www.linkedin.com/in/olaopadasola/
+
+📌 **Project Information**
+Program Name: Cybersecurity at NetworkWalks | Week: 04 |
+Repository: GitHub
 
 
-**Scope:** Testing was limited to the target domain (medirozahospital.com) only. No social engineering, denial-of-service, or out-of-scope testing was performed, per the rules of engagement.
 
-**Methodology:**
-- Reconnaissance of the target application
-- Enumeration of login behavior and error handling
-- Testing for input validation weaknesses (SQL injection)
-- Exploitation to demonstrate real-world impact
-- Analysis of retrieved files for further data exposure
-- Documentation of findings with evidence
-
-**Tools used:** [List what you used — browser dev tools, Burp Suite, JTR/Johnny, NetworkWalks hash calculator, etc.]
-
-## 3. Findings and Proof of Exploitation
-
-### Finding 1: Username Enumeration via Inconsistent Error Messages
-**Description:** The login form returns different error messages depending on whether a submitted username exists ("Username not found" vs. "Incorrect password"), allowing an attacker to enumerate valid accounts.
-
-**Proof of Concept:**
-| Username | Password | Response |
-|---|---|---|
-| `bob` | `test123` | Username not found |
-| `admin` | `test123` | Incorrect password |
-
-**Impact:** Confirms `admin` is a valid account, narrowing the attack surface for further exploitation.
-
----
-
-### Finding 2: SQL Injection in Login Form (Authentication Bypass)
-**Description:** The username field does not sanitize user input before passing it into a SQL query, allowing an attacker to manipulate the query logic.
-
-**Proof of Concept:**
